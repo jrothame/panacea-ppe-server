@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<groups>
+  <group name="menus">
+    <label key="browse" value="Mag-browse"/>
+    <label key="wayfind" value="Hanapin ang paraan"/>
+    <label key="debug" value="Debug"/>
+    <label key="language" value="Wika"/>
+    <label key="lost" value="Nawawala Ako"/>
+  </group>
+  <group name="wayfind">
+    <label key="appt_info_header" value="Impormasyon sa appointment"/>
+    <label key="appt_info_facility" value="Pasilidad:"/>
+    <label key="appt_info_room" value="Kwarto:"/>
+    <label key="step1" value="Magmaneho papunta sa "/>
+    <label key="step2" value="Patunayan ang Pagdating sa Pagdating"/>
+    <label key="step3" value="Pumunta sa appointment"/>
+    <label key="step4" value="Patunayan ang Kasalukuyang Lokasyon"/>
+    <label key="step5" value="Mag-navigate pabalik"/>
+    <label key="step6" value="Magmaneho pauwi"/>
+    <label key="driving_directions_label" value="Magmaneho tayo"/>
+    <label key="ride_share_label" value="ibinahagi ang biyahe"/>
+    <label key="get_route_button_arrival" value="Dalhin mo ako sa appointment!!!"/>
+    <label key="get_route_button_return" value="Alisin mo ako dito"/>
+    <label key="validate_arrival_location_button" value="Patunayan ang lokasyon ng pagdating"/>
+    <label key="validate_departure_location_button" value="Patunayan ang Lokasyon ng Pag-alis"/>
+  </group>
+  <group name="browse">
+    <label key="facility_control" value="Pasilidad"/>
+    <label key="start_control" value="Mula sa"/>
+    <label key="end_control" value="Papunta Sa"/>
+    <label key="avoid_stairs_toggle" value="Iwasan ang mga hagdan"/>
+    <label key="get_route_button" value="Magsimula"/>    
+  </group>
+  <group name="routeviewer">
+    <label key="close_button" value="Isara"/>
+    <label key="start_label" value="Mula sa:"/>
+    <label key="end_label" value="Papunta Sa:"/>
+    <label key="reverse_button" value="Baliktarin"/>
+    <label key="distance_label" value="Distansya"/>
+    <label key="feet_label" value="Talampakan"/>
+    <label key="endpoints_same_error_message" value="Parehong nagsisimula at pagtatapos ng mga puntos ay pareho! Samakatuwid, walang landas na maipakita."/>
+    <label key="endpoints_same_error_title" value="Error"/>
+    <label key="endpoints_same_error_close_button" value="Isara"/>
+  </group>
+  <group name="validatelocation">
+    <label key="close_button" value="Patunayan"/>
+    <label key="arrival_header" value="Patunayan ang Iyong Pagdating sa Pagdating"/>
+    <label key="departure_header" value="Patunayan ang iyong kasalukuyang lokasyon"/>
+    <label key="expected_location_label" value="Inaasahang lokasyon"/>
+    <label key="change_location_button" value="Baguhin ang Lokasyon"/>
+    <label key="parking_lots_option_title" value="Nasa parking lot ako"/>
+    <label key="entrance_option_title" value="Nasa isang pasukan ako"/>
+    <label key="parking_lots_selector_label" value="Mga Paradahan"/>
+    <label key="entrance_selector_label" value="Mga Entrances"/>
+    <label key="no_selection_message" value="Mangyaring pumili ng isang wastong lokasyon!"/>
+  </group>
+  <group name="lost">
+    <label key="close_button" value="Isara"/>
+    <label key="dialog_title" value="Nawawala Ako!"/>
+    <label key="step1_title" value="Hakbang 1"/>
+    <label key="step1_directions" value="Maghanap para sa mga placard ng QR code tulad ng nasa ibaba sa mga lobby ng elevator, pangunahing desk, o mga lugar ng pagrehistro."/>
+    <label key="step2_title" value="Hakbang 2"/>
+    <label key="step2_directions" value="Ituro ang camera ng iyong telepono sa QR code at i-tap ang link ng website na lilitaw (tandaan na maaari rin namin nais ng isang larawan para sa hakbang na ito)."/>
+    <label key="action_button" value="I-scan ngayon"/>
+  </group>
+  <group name="changelanguage">
+    <label key="close_button" value="Isara / Close"/>
+    <label key="dialog_title" value="Wika / Language"/>
+    <label key="description" value="Piliin ang Iyong Ginustong Wika / Select Your Preferred Language"/>
+    <label key="english_option_text" value="Ingles / English"/>
+    <label key="spanish_option_text" value="Espanyol / Spanish"/>
+  </group>
+  <group name="destinationselector">
+    <label key="close_button" value="Isara"/>
+    <label key="remove_category_label" value="Kategorya"/>
+    <label key="search_textbox_label" value="Maghanap"/>
+  </group>
+  <group name="emailstaff">
+    <label key="dialog_title" value="Pagpapadala ng email"/>
+    <label key="close_button" value="Isara"/>
+    <label key="enter_email_address" value="Ilagay ang (mga) email address na pinaghihiwalay ng mga kuwit"/>
+    <label key="welcome_text" value="Maligayang pagdating sa"/>
+    <label key="navigate_text" value="Mangyaring gamitin ang link sa ibaba para sa mga direksyon ng larawan"/>
+    <label key="navigate_from" value="Mula sa"/>
+    <label key="navigate_to" value="Papunta Sa"/>
+    <label key="salutation_text" value="Malugod na bumabati"/>
+    <label key="click_here_find_your_way" value="Mag-click dito upang mahanap ang iyong paraan"/>    
+    <label key="send_button" value="Ipadala"/>
+    <label key="cancel_button" value="Kanselahin"/>
+    <label key="email_sent_successfully" value="Matagumpay na ipinadala ang email"/>
+    <label key="email_delivery_failed" value="Nabigo ang pagpapadala ng email"/>
+    <label key="invalid_email" value="Hindi Wastong Email"/>
+    <label key="please_enter_valid_email" value="Mangyaring maglagay ng wastong email address"/>
+    <label key="navigation" value="Pag-navigate" />
+    <label key="indoor_wayfinding" value="Paghahanap ng daan sa loob" />
+    <label key="photo_navigation" value="Pag-navigate ng larawan" />
+    <label key="email_required" value="Kinakailangan ang isang email address" />    <!-- not found in translation doc -->
+  </group>
+  <group name="search">
+    <label key="close_button" value="Isara"/>
+    <label key="facility" value="Pasilidad"/>
+    <label key="from" value="Mula sa"/>
+    <label key="to" value="Papunta Sa"/>
+    <label key="language" value="Wika"/>
+    <label key="reverse_route" value="Kasalungat na Ruta"/>
+    <label key="qr_instructions" value="Buksan ang camera ng iyong smartphone at itapat ito sa QR code"/>
+    <label key="cancel" value="Kanselahin"/>
+    <label key="options_share_link" value="Gamitin ang mga pagpipilian sa ibaba upang ibahagi ang link na ito" />
+  </group>
+  <group name="previewviewer">
+    <label key="distance" value="Distansya"/>   <!-- not found in translation doc -->
+    <label key="feet" value="talampakan"/>           <!-- not found in translation doc -->
+    <label key="time" value="Oras"/>           <!-- not found in translation doc -->
+    <label key="minute" value="minuto"/>       <!-- not found in translation doc -->
+  </group>
+  <group name="sharingoptions">
+    <label key="copylinkcopied" value="Kinopya ang link sa clipboard!"/>
+    <label key="emailbutton_nolocation_specified" value="Walang lokasyon na tinukoy sa Mula: at Sa: mga patlang."/> <!-- not found in translation doc-->
+  </group>
+</groups>

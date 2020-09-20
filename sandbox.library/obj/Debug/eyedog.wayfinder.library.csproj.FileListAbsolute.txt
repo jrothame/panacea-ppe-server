@@ -1,0 +1,5 @@
+C:\ProjectFiles\Eyedog\Wayfinder\api\eyedog.wayfinder.library\bin\Debug\eyedog.wayfinder.library.dll
+C:\ProjectFiles\Eyedog\Wayfinder\api\eyedog.wayfinder.library\bin\Debug\eyedog.wayfinder.library.pdb
+C:\ProjectFiles\Eyedog\Wayfinder\api\eyedog.wayfinder.library\obj\Debug\eyedog.wayfinder.library.csproj.CoreCompileInputs.cache
+C:\ProjectFiles\Eyedog\Wayfinder\api\eyedog.wayfinder.library\obj\Debug\eyedog.wayfinder.library.dll
+C:\ProjectFiles\Eyedog\Wayfinder\api\eyedog.wayfinder.library\obj\Debug\eyedog.wayfinder.library.pdb

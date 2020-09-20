@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<groups>
+  <group name="menus">
+    <label key="browse" value="Browse"/>
+    <label key="wayfind" value="Wayfind"/>
+    <label key="debug" value="API"/>
+    <label key="language" value="Language/Idioma"/>
+    <label key="lost" value="I'm Lost"/>
+  </group>
+  <group name="wayfind">
+    <label key="appt_info_header" value="Appointment Information"/>
+    <label key="appt_info_facility" value="Facility:"/>
+    <label key="appt_info_room" value="Room:"/>
+    <label key="step1" value="Drive to "/>
+    <label key="step2" value="Validate Arrival Location"/>
+    <label key="step3" value="Start Wayfinding"/>
+    <label key="step4" value="Validate Current Location"/>
+    <label key="step5" value="Reverse Wayfinding"/>
+    <label key="step6" value="Drive Home"/>
+    <label key="driving_directions_label" value="let's drive"/>
+    <label key="ride_share_label" value="ride share"/>
+    <label key="get_route_button_arrival" value="Get Me to the appt.!!!"/>
+    <label key="get_route_button_return" value="Get Me Out Of Here"/>
+    <label key="validate_arrival_location_button" value="Validate Arrival Location"/>
+    <label key="validate_departure_location_button" value="Validate Departure Location"/>
+  </group>
+  <group name="browse">
+    <label key="facility_control" value="Facility"/>
+    <label key="start_control" value="From"/>
+    <label key="end_control" value="To"/>
+    <label key="avoid_stairs_toggle" value="Avoid Stairs"/>
+    <label key="get_route_button" value="Start"/>    
+  </group>
+  <group name="routeviewer">
+    <label key="close_button" value="CLOSE"/>
+    <label key="start_label" value="From:"/>
+    <label key="end_label" value="To:"/>
+    <label key="reverse_button" value="REVERSE"/>
+    <label key="distance_label" value="Distance"/>
+    <label key="feet_label" value="feet"/>
+    <label key="endpoints_same_error_message" value="Both start and end points are the same!  Therefore, there is no path to show."/>
+    <label key="endpoints_same_error_title" value="ERROR"/>
+    <label key="endpoints_same_error_close_button" value="CLOSE"/>
+  </group>
+  <group name="validatelocation">
+    <label key="close_button" value="VALIDATE"/>
+    <label key="arrival_header" value="Validate Your Arrival Location"/>
+    <label key="departure_header" value="Validate Your Current Location"/>
+    <label key="expected_location_label" value="Expected Location"/>
+    <label key="change_location_button" value="Change Location"/>
+    <label key="parking_lots_option_title" value="I'm in a parking lot"/>
+    <label key="entrance_option_title" value="I'm at an entrance"/>
+    <label key="parking_lots_selector_label" value="Parking Lots"/>
+    <label key="entrance_selector_label" value="Entrances"/>
+    <label key="no_selection_message" value="Please select a valid location!"/>
+  </group>
+  <group name="lost">
+    <label key="close_button" value="CLOSE"/>
+    <label key="dialog_title" value="I'm Lost!"/>
+    <label key="step1_title" value="Step 1"/>
+    <label key="step1_directions" value="Look for QR code placards like the one below in elevator lobbies, the main desk, or registration areas."/>
+    <label key="step2_title" value="Step 2"/>
+    <label key="step2_directions" value="Point your phone’s camera at the QR code and tap the website link that appears (note, we may want a picture for this step as well)."/>
+    <label key="action_button" value="Scan Now"/>
+  </group>
+  <group name="changelanguage">
+    <label key="close_button" value="Close / Cerca"/>
+    <label key="dialog_title" value="Language / Idioma"/>
+    <label key="description" value="Select Your Preferred Language / Seleccione su idioma preferido"/>
+    <label key="english_option_text" value="English / Inglés"/>
+    <label key="spanish_option_text" value="Spanish / Español"/>
+  </group>
+  <group name="destinationselector">
+    <label key="close_button" value="CLOSE"/>
+    <label key="remove_category_label" value="Category"/>
+    <label key="search_textbox_label" value="Search"/>
+  </group>
+  <group name="emailstaff">
+    <label key="dialog_title" value="Sending email"/>
+    <label key="close_button" value="CLOSE"/>
+    <label key="enter_email_address" value="Enter email address(es) separated by commas"/>
+    <label key="welcome_text" value="Welcome to"/>
+    <label key="navigate_text" value="Please use the link below for photo directions"/>
+    <label key="navigate_from" value="From"/>
+    <label key="navigate_to" value="To"/>
+    <label key="salutation_text" value="Kind Regards"/>
+    <label key="click_here_find_your_way" value="Click here to find your way"/>
+    <label key="send_button" value="Send"/>
+    <label key="cancel_button" value="Cancel"/>
+    <label key="email_sent_successfully" value="Email sent successfully"/>
+    <label key="email_delivery_failed" value="Email delivery failed"/>
+    <label key="invalid_email" value="Invalid email"/>
+    <label key="please_enter_valid_email" value="Please enter a valid email address"/>
+    <label key="navigation" value="Navigation" />
+    <label key="indoor_wayfinding" value="Indoor Wayfinding" />
+    <label key="photo_navigation" value="Photo Navigation" />
+    <label key="email_required" value="An email address is required" />    <!-- not found in translation doc -->
+  </group>
+  <group name="search">
+    <label key="close_button" value="CLOSE"/>
+    <label key="facility" value="Facility"/>
+    <label key="from" value="From"/>
+    <label key="to" value="To"/>
+    <label key="language" value="Language"/>
+    <label key="reverse_route" value="Reverse Route"/>
+    <label key="qr_instructions" value="Open your smartphone's camera and point it at the QR code"/>
+    <label key="cancel" value="Cancel"/>
+    <label key="options_share_link" value="Use the options below to share this link" />
+  </group>
+  <group name="previewviewer">
+    <label key="distance" value="Distance"/>   <!-- not found in translation doc -->
+    <label key="feet" value="feet"/>           <!-- not found in translation doc -->
+    <label key="time" value="Time"/>           <!-- not found in translation doc -->
+    <label key="minute" value="minute"/>       <!-- not found in translation doc -->
+  </group>
+  <group name="sharingoptions">
+    <label key="copylinkcopied" value="Link copied to clipboard!"/>
+    <label key="emailbutton_nolocation_specified" value="No location was specified in From: and To: fields."/> <!-- not found in translation doc-->
+  </group>
+</groups>

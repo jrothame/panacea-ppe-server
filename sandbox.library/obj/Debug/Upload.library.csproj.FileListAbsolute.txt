@@ -1,0 +1,16 @@
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.dll
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.pdb
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\Upload.library.csproj.CoreCompileInputs.cache
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.dll
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.pdb
+C:\projects\panacea\flatfile\server\api\sandbox.library\bin\Debug\sandbox.library.dll
+C:\projects\panacea\flatfile\server\api\sandbox.library\bin\Debug\sandbox.library.pdb
+C:\projects\panacea\flatfile\server\api\sandbox.library\obj\Debug\Upload.library.csproj.CoreCompileInputs.cache
+C:\projects\panacea\flatfile\server\api\sandbox.library\obj\Debug\sandbox.library.dll
+C:\projects\panacea\flatfile\server\api\sandbox.library\obj\Debug\sandbox.library.pdb
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\bin\Debug\sandbox.library.dll
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\bin\Debug\sandbox.library.pdb
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\obj\Debug\Upload.library.csprojAssemblyReference.cache
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\obj\Debug\Upload.library.csproj.CoreCompileInputs.cache
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\obj\Debug\sandbox.library.dll
+C:\projects\ppe-server\panacea-ppe-server-master\sandbox.library\obj\Debug\sandbox.library.pdb

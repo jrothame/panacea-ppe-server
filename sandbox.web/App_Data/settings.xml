@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+ 
+  <!--  PROD  -->
+  <!--<setting key="eyedog_api_base_url" value="https://atobe.app/api/buildings/"/> 
+  <setting key="eyedog_images_base_url" value="https://d3j4sn459oagqx.cloudfront.net/"/>-->
+
+  <!-- DEV  -->
+  <!--<setting key="eyedog_api_base_url" value="https://dev.atobe.app/api/buildings/"/>
+  <setting key="eyedog_images_base_url" value="https://dev.atobe.app/api/storages/"/>-->
+
+  <!--  SCRIPPS  -->
+  <setting key="eyedog_api_base_url" value="https://atobe.app/api/buildings/"/>
+  <setting key="eyedog_images_base_url" value="https://atobe.app/api/storages/"/>
+  <!--<setting key="eyedog_api_base_url" value="https://atobe.app/api/"/>
+  <setting key="eyedog_images_base_url" value="https://d3j4sn459oagqx.cloudfront.net/"/>-->
+  
+  
+  <setting key="tunnel_api_calls" value="false"/>
+  <setting key="menu_bar_background_color" value="#bec7cc"/>
+  <setting key="menu_bar_color" value="darkslategray"/>
+  <setting key="page_background_color" value="#eeeded"/>
+  <setting key="custom_primary_color" value="white"/>
+  <setting key="custom_primary_background_color" value="#2196F3"/>
+  <setting key="default_path_viewer_to_vertical" value="true"/>
+  <setting key="enable_google_nav" value="true"/>
+  <setting key="enable_waze_nav" value="true"/>
+  <setting key="enable_uber_rideshare" value="true"/>
+  <setting key="enable_lyft_rideshare" value="true"/>
+  <setting key="enable_debug_menu" value="true"/>
+  <setting key="enable_debug" value="true"/>
+  <setting key="building_restrictions" value="14,32,37,44, 43"/>   <!-- 43   14,32,37,44 -->-->
+  <setting key="master_room_regex_es" value="\(Oficina [0-9]+\)"/>
+  <setting key="master_room_regex_en" value="\(Suite [0-9]+\)"/>
+  <setting key="entrances_match_string_es" value="Entradas / Salidas"/>
+  <setting key="entrances_match_string_en" value="Entrances / Exits"/>
+  <setting key="entry_url_base" value="http://localhost:4200/"/>
+  <setting key="enable_distance_calculation" value="false" />
+  <setting key="minimum_settings_for_auto_generate_qr_code" value="building_startnode_endnode" />  <!-- values can be: building, building_startnode, building_startnode_endnode-->
+ 
+ 
+  
+</settings>

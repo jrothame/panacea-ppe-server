@@ -1,0 +1,10 @@
+C:\ProjectFiles\Panacea\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\Sandbox.library.csproj.CoreCompileInputs.cache
+C:\ProjectFiles\Panacea\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.dll
+C:\ProjectFiles\Panacea\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.pdb
+C:\ProjectFiles\Panacea\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.dll
+C:\ProjectFiles\Panacea\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.pdb
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.dll
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\bin\Debug\sandbox.library.pdb
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\Sandbox.library.csproj.CoreCompileInputs.cache
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.dll
+C:\Projects\Sandbox\Sandbox\SourceCode\Sandbox\api\sandbox.library\obj\Debug\sandbox.library.pdb

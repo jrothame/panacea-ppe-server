@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<groups>
+  <group name="menus">
+    <label key="browse" value="Browse"/>
+    <label key="wayfind" value="Wayfind"/>
+    <label key="debug" value="Debug"/>
+  </group>
+  <group name="wayfind">
+    <label key="step1" value="Travel To: "/>
+    <label key="step2" value="Validate Arrival Location"/>
+    <label key="step3" value="Navigate To Appointment"/>
+    <label key="step4" value="Validate Current Location"/>
+    <label key="step5" value="Navigate Back"/>
+    <label key="step6" value="Drive Home"/>
+    <label key="driving_directions_label" value="let's drive"/>
+    <label key="ride_share_label" value="you, ride share"/>
+    <label key="get_route_button_arrival" value="Get Me to the appt.!!!"/>
+    <label key="get_route_button_return" value="Get Me Out Of Here"/>
+    <label key="validate_arrival_location_button" value="Validate Arrival Location"/>
+    <label key="validate_departure_location_button" value="Validate Departure Location"/>
+  </group>
+  <group name="browse">
+    <label key="facility_control" value="Facility"/>
+    <label key="facility_control_select_one" value="-- select one --"/>
+    <label key="start_control" value="Start"/>
+    <label key="start_control_select_one" value="-- select one --"/>
+    <label key="end_control" value="End"/>
+    <label key="end_control_select_one" value="-- select one --"/>
+    <label key="avoid_stairs_toggle" value="Avoid Stairs"/>
+    <label key="get_route_button" value="Start"/>
+    <label key="reverse_route_button" value="Reverse"/>
+  </group>
+  <group name="routeviewer">
+    <label key="close_button" value="CLOSE"/>
+    <label key="start_label" value="START:"/>
+    <label key="end_label" value="END:"/>
+    <label key="reverse_button" value="REVERSE"/>
+  </group>
+  <group name="validatelocation">
+    <label key="valid_button" value="CORRECT"/>
+  </group>
+</groups>

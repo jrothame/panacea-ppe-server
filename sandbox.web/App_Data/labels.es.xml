@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<groups>
+  <group name="menus">
+    <label key="browse" value="Vistazo"/>
+    <label key="wayfind" value="Encontrar el camino"/>
+    <label key="debug" value="Depurar"/>
+    <label key="language" value="Idioma/Language"/>
+    <label key="lost" value="Estoy perdido"/>
+  </group>
+  <group name="wayfind">
+    <label key="appt_info_header" value="Información de cita"/>
+    <label key="appt_info_facility" value="Instalaciones:"/>
+    <label key="appt_info_room" value="Habitación:"/>
+    <label key="step1" value="Conducir a: "/>
+    <label key="step2" value="Validar ubicación de llegada"/>
+    <label key="step3" value="Ir a la cita"/>
+    <label key="step4" value="Validar ubicación actual"/>
+    <label key="step5" value="Navegar hacia atrás"/>
+    <label key="step6" value="Conducir a casa"/>
+    <label key="driving_directions_label" value="manejemos"/>
+    <label key="ride_share_label" value="viaje compartido"/>
+    <label key="get_route_button_arrival" value="¡Llévame a la cita!"/>
+    <label key="get_route_button_return" value="Sácame de aquí"/>
+    <label key="validate_arrival_location_button" value="Validar ubicación de llegada"/>
+    <label key="validate_departure_location_button" value="Validar el lugar de salida"/>
+  </group>
+  <group name="browse">
+    <label key="facility_control" value="Instalaciones"/>
+    <label key="start_control" value="Comienzo"/>
+    <label key="end_control" value="Final"/>
+    <label key="avoid_stairs_toggle" value="Evitar escaleras"/>
+    <label key="get_route_button" value="Comienzo"/>
+  </group>
+  <group name="routeviewer">
+    <label key="close_button" value="CERCA"/>
+    <label key="start_label" value="COMIENZO:"/>
+    <label key="end_label" value="FINAL:"/>
+    <label key="reverse_button" value="MARCHA ATRÁS"/>
+    <label key="distance_label" value="Distancia"/>
+    <label key="feet_label" value="pies"/>
+    <label key="endpoints_same_error_message" value="¡Los puntos de inicio y fin son iguales! Por lo tanto, no hay camino para mostrar."/>
+    <label key="endpoints_same_error_title" value="Error"/>
+    <label key="endpoints_same_error_close_button" value="Cerrar"/>
+  </group>
+  <group name="validatelocation">
+    <label key="close_button" value="Validar"/>
+    <label key="arrival_header" value="Validar su ubicación de llegada"/>
+    <label key="departure_header" value="Validar su ubicación actual"/>
+    <label key="expected_location_label" value="Lugar esperado"/>
+    <label key="change_location_button" value="Cambiar locación"/>
+    <label key="parking_lots_option_title" value="Estoy en un estacionamiento"/>
+    <label key="entrance_option_title" value="Estoy en una entrada"/>
+    <label key="parking_lots_selector_label" value="Estacionamientos"/>
+    <label key="entrance_selector_label" value="Entradas"/>
+    <label key="no_selection_message" value="Por favor seleccione una ubicación válida!"/>
+  </group>
+  <group name="lost">
+    <label key="close_button" value="Cerrar"/>
+    <label key="dialog_title" value="Estoy perdido"/>
+    <label key="step1_title" value="Paso 1"/>
+    <label key="step1_directions" value="Busque carteles de códigos QR como el siguiente en los vestíbulos de los ascensores, el escritorio principal o las áreas de registro."/>
+    <label key="step2_title" value="Paso 2"/>
+    <label key="step2_directions" value="Apunte la cámara de su teléfono hacia el código QR y toque el enlace del sitio web que aparece (tenga en cuenta que también podemos querer una imagen para este paso)."/>
+    <label key="action_button" value="Escanear ahora"/>
+  </group>
+  <group name="changelanguage">
+    <label key="close_button" value="Cerrar / Close"/>
+    <label key="dialog_title" value="Idioma / Language"/>
+    <label key="description" value="Seleccione su idioma preferido / Select Your Preferred Language"/>
+    <label key="english_option_text" value="Inglés / English"/>
+    <label key="spanish_option_text" value="Español / Spanish"/>
+  </group>
+  <group name="destinationselector">
+    <label key="close_button" value="Cerrar"/>
+    <label key="remove_category_label" value="Categoría"/>
+    <label key="search_textbox_label" value="Buscar"/>
+  </group>
+  <group name="emailstaff">
+    <label key="dialog_title" value="Enviando correo electrónico"/>
+    <label key="close_button" value="Cerrar"/>
+    <label key="enter_email_address" value="Ingrese el(los) correo(s) electrónico(s) separado(s) por comas"/>
+    <label key="welcome_text" value="Bienvenido a"/>    
+    <label key="navigate_text" value="Por favor, utilice el siguiente enlace para obtener instrucciones de fotos"/>
+    <label key="navigate_from" value="Desde"/>
+    <label key="navigate_to" value="A"/>
+    <label key="salutation_text" value="Saludos cordiales"/>
+    <label key="click_here_find_your_way" value="Haga clic aquí para encontrar su camino"/>
+    <label key="send_button" value="Enviar"/>
+    <label key="cancel_button" value="Cancelar"/>
+    <label key="email_sent_successfully" value="Correo electrónico enviado con éxit"/>
+    <label key="email_delivery_failed" value="Error al entregar el correo electrónico"/>
+    <label key="invalid_email" value="Correo electrónico no válido"/>
+    <label key="please_enter_valid_email" value="Ingrese una dirección de correo electrónico válida"/>
+    <label key="navigation" value="Navegación" />
+    <label key="indoor_wayfinding" value="Orientación interior" />
+    <label key="photo_navigation" value="Foto de navegación" />
+    <label key="email_required" value="Se requiere una dirección de correo electrónico" />    
+  </group>
+  <group name="search">
+    <label key="close_button" value="Cerrar"/>
+    <label key="facility" value="Instalaciones"/>
+    <label key="from" value="Desde"/>
+    <label key="to" value="A"/>
+    <label key="language" value="Idioma"/>
+    <label key="reverse_route" value="Ruta inversa"/>
+    <label key="qr_instructions" value="Utiliza la cámara de tu teléfono para escanear el código QR y visualizar la ruta"/>
+    <label key="cancel" value="Cancelar"/>
+    <label key="options_share_link" value="Use las siguientes opciones para compartir este enlace" />
+  </group>
+  <group name="previewviewer">
+    <label key="distance" value="Distancia"/>     
+    <label key="feet" value="pies"/>
+    <label key="time" value="Hora"/>
+    <label key="minute" value="minuto"/>
+  </group>
+  <group name="sharingoptions">
+    <label key="copylinkcopied" value="¡Enlace copiado al portapapeles!"/>
+    <label key="emailbutton_nolocation_specified" value="No se especificó ninguna ubicación en los campos Desde: y A:"/>
+  </group>
+</groups>
