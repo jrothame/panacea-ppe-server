@@ -90,7 +90,7 @@ namespace upload.web.Classes
           
         }
 
-        public static List<string> GetHCPCSCodes(string fileType)
+        public static List<string> GetHCPCSCodes(int fileId)
         {
             List<string> hcpcsCodes = new List<string>();
 
@@ -102,10 +102,10 @@ namespace upload.web.Classes
 
                     conn.Open();
 
-                    SqlCommand cmd = new SqlCommand("get_hcpcs_codes", conn);
+                    SqlCommand cmd = new SqlCommand("ppe_get_hcpcs_codes", conn);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.Add("@fileType", SqlDbType.VarChar).Value = fileType;
+                    cmd.Parameters.Add("@fileId", SqlDbType.Int).Value = fileId;
 
 
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -133,6 +133,7 @@ namespace upload.web.Classes
 
         public static List<HCPCSFile> GetHCPCSFiles()
         {
+            
             List<HCPCSFile> files = new List<HCPCSFile>();
 
             try
@@ -149,7 +150,7 @@ namespace upload.web.Classes
 
                     while (reader.Read())
                     {
-
+                       
                         HCPCSFile file = new HCPCSFile();
 
                         file.file_id = (int)reader["file_id"];
@@ -157,8 +158,6 @@ namespace upload.web.Classes
 
                         files.Add(file);
                       
-
-
                     }
 
                 }

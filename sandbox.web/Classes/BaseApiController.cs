@@ -5,7 +5,7 @@ using System.Web.Http.Cors;
 
 namespace upload.web.Classes
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*", SupportsCredentials =true)]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class BaseApiController : ApiController
     {
         public HttpResponseMessage UnauthorizedMessage

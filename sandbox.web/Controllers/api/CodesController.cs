@@ -15,8 +15,7 @@ namespace upload.web.Controllers.api
         {
   
             List<string> codes = new List<string>();
-            List<HCPCSFile> files = new List<HCPCSFile>();
-
+          
             IHttpActionResult result = null;
 
             try
@@ -45,7 +44,9 @@ namespace upload.web.Controllers.api
                     //HCPCS Codes
                     case "hcpcs":
 
-                        codes = ExtensionMethods.GetHCPCSCodes(id);
+                        int fileId = Convert.ToInt32(id);
+
+                        codes = ExtensionMethods.GetHCPCSCodes(fileId);
 
                         //codes were retrieved
                         if (codes.Count > 0)
