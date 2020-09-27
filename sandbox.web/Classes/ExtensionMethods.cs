@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using upload.web.Controllers.api;
 using static upload.web.Controllers.api.BatchController;
 
 namespace upload.web.Classes
 {
 
+    
     public class HCPCSFile
     {
         public int file_id { get; set; }
@@ -24,7 +22,9 @@ namespace upload.web.Classes
 
     public class ExtensionMethods
     {
-        public const string SQLCONN = "Server=10.7.2.12;Database=zbp_dev;User Id=jrothamel;Password=AM34pe9x!@#$";
+        static string connString = ConfigurationManager.ConnectionStrings["dev"].ConnectionString;
+
+
         public static DataTable ToDataTable<T>(IList<T> data)
         {
             PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(T));
@@ -52,9 +52,10 @@ namespace upload.web.Classes
         {
             List<string> revCodes = new List<string>();
 
+          
             try
             {
-                using (SqlConnection conn = new SqlConnection(SQLCONN))
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
 
                     conn.Open();
@@ -97,7 +98,7 @@ namespace upload.web.Classes
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(SQLCONN))
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
 
                     conn.Open();
@@ -138,7 +139,7 @@ namespace upload.web.Classes
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(SQLCONN))
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
 
                     conn.Open();
@@ -178,7 +179,7 @@ namespace upload.web.Classes
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(SQLCONN))
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
 
                     conn.Open();
@@ -236,7 +237,7 @@ namespace upload.web.Classes
 
                 }
 
-                using (SqlConnection conn = new SqlConnection(SQLCONN))
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
 
                     conn.Open();
